@@ -1,0 +1,12 @@
+vendor
+composer.phar
+composer.lock
+
+phpunit.xml
+.phpunit.*
+build
+coverage
+
+psalm.xml
+
+.idea

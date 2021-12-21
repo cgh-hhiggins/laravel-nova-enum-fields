@@ -1,0 +1,49 @@
+{
+  "name": "equinoxmatt/nova-enum-field",
+  "description": "Nova field to use resource enums",
+  "keywords": [
+    "laravel",
+    "nova",
+    "enum"
+  ],
+  "homepage": "https://github.com/equinoxmatt/nova-enum-field",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Matthew Butterworth",
+      "email": "me@mattbutterworth.co.uk"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://nova.laravel.com"
+    }
+  ],
+  "require": {
+    "php": "^8.1",
+    "laravel/nova": "^3.0"
+  },
+  "require-dev": {
+    "joshgaber/novaunit": "^2.2",
+    "mockery/mockery": "^1.3.3",
+    "nunomaduro/collision": "^5.2",
+    "orchestra/testbench": "^6.0",
+    "phpunit/phpunit": "^9.3.3",
+    "symfony/var-dumper": "^5.0",
+    "vimeo/psalm": "^4.15"
+  },
+  "autoload": {
+    "psr-4": {
+      "EquinoxMatt\\LaravelNova\\Fields\\Enum\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "EquinoxMatt\\LaravelNova\\Fields\\Enum\\Tests\\": "tests"
+    }
+  },
+  "scripts": {
+    "test": "vendor/bin/phpunit --colors=always"
+  }
+}
