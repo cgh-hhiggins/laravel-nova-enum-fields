@@ -16,7 +16,7 @@ trait EnumDescriptionTrait
         return $selectArray;
     }
 
-    public function getDescription(\BackedEnum $enum): string
+    public static function getDescription(\BackedEnum $enum): string
     {
         if (ctype_upper(preg_replace('/[^a-zA-Z]/', '', $enum->name))) {
             $key = strtolower($enum->name);
