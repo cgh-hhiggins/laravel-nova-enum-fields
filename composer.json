@@ -1,5 +1,5 @@
 {
-  "name": "equinoxmatt/nova-enum-field",
+  "name": "equinoxmatt/nova-enum-fields",
   "description": "Nova field to use resource enums",
   "keywords": [
     "laravel",
